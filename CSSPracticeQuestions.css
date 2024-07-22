@@ -1,0 +1,52 @@
+.abc {
+    width: 200px;
+    height: 100px;
+    border: 3px solid blue;
+}
+
+.xyz {
+    width: 200px;
+    height: 100px;
+    padding: 40px;
+    border: 3px solid orange;
+}
+
+.box {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+
+
+@keyframes color {
+    40% {
+        background-color: brown;
+    }
+
+    70% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: salmon;
+    }
+}
+
+.def {
+    width: 200px;
+    border: 15px solid green;
+    padding: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
